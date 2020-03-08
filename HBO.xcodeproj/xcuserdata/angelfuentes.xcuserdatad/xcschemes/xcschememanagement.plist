@@ -7,7 +7,25 @@
 		<key>HBO.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>52016EA52160E2F100B9B037</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>52016EB92160E2F200B9B037</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>52016EC42160E2F200B9B037</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

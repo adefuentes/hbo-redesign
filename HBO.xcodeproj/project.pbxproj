@@ -7,13 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3038545FA59D366FA02B0AA4 /* Pods_HBO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A773B3535B603B041EE87EF4 /* Pods_HBO.framework */; };
+		50E956CF9CC246D8705D9E69 /* Pods_HBOTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB549C50C1FF8978588F4EC /* Pods_HBOTests.framework */; };
 		52016EAA2160E2F100B9B037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52016EA92160E2F100B9B037 /* AppDelegate.swift */; };
-		52016EAC2160E2F100B9B037 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52016EAB2160E2F100B9B037 /* ViewController.swift */; };
-		52016EAF2160E2F100B9B037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52016EAD2160E2F100B9B037 /* Main.storyboard */; };
+		52016EAC2160E2F100B9B037 /* HBOLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52016EAB2160E2F100B9B037 /* HBOLoginViewController.swift */; };
 		52016EB12160E2F200B9B037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52016EB02160E2F200B9B037 /* Assets.xcassets */; };
 		52016EB42160E2F200B9B037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52016EB22160E2F200B9B037 /* LaunchScreen.storyboard */; };
 		52016EBF2160E2F200B9B037 /* HBOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52016EBE2160E2F200B9B037 /* HBOTests.swift */; };
 		52016ECA2160E2F200B9B037 /* HBOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52016EC92160E2F200B9B037 /* HBOUITests.swift */; };
+		525DDE972163F55B00513F04 /* HBOTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525DDE962163F55B00513F04 /* HBOTabController.swift */; };
+		5283D54F2167F7AF00D85BEE /* HBONavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5283D54E2167F7AF00D85BEE /* HBONavigationController.swift */; };
+		5283D551216916FC00D85BEE /* HBOImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5283D550216916FC00D85BEE /* HBOImageCollectionViewCell.swift */; };
+		5283D5532169184700D85BEE /* ImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5283D5522169184700D85BEE /* ImageViewExtensions.swift */; };
+		5283D55521691B2C00D85BEE /* HBOHorizCollectionViewInCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5283D55421691B2C00D85BEE /* HBOHorizCollectionViewInCell.swift */; };
+		5283D559216C007200D85BEE /* HBOContentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5283D558216C007200D85BEE /* HBOContentViewCell.swift */; };
+		5283D55B216CBFB400D85BEE /* HBORoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5283D55A216CBFB400D85BEE /* HBORoundButton.swift */; };
+		5283D55F216CD21800D85BEE /* HBOPagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5283D55E216CD21800D85BEE /* HBOPagesViewController.swift */; };
+		5283D561216CD48700D85BEE /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5283D560216CD48700D85BEE /* ViewExtension.swift */; };
+		529D2F6D218F6CAC0063EC81 /* HBOPagesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529D2F6C218F6CAC0063EC81 /* HBOPagesCollectionViewController.swift */; };
+		529D2F70218F863F0063EC81 /* HBOCollectionTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529D2F6F218F863F0063EC81 /* HBOCollectionTransition.swift */; };
+		52A0F27F21614C98001A9AD5 /* HBOInputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0F27E21614C98001A9AD5 /* HBOInputTextView.swift */; };
+		52A0F28121629B6F001A9AD5 /* HBORightIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0F28021629B6F001A9AD5 /* HBORightIconButton.swift */; };
+		52A0F28421629B8F001A9AD5 /* HBOLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0F28321629B8F001A9AD5 /* HBOLoginButton.swift */; };
+		52A0F2872162A299001A9AD5 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0F2862162A299001A9AD5 /* UIColorExtensions.swift */; };
+		52A264152165425700905F08 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A264142165425700905F08 /* Globals.swift */; };
+		52A2641A2167BB7400905F08 /* HBOContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A264192167BB7400905F08 /* HBOContent.swift */; };
+		52A2641C2167BD9900905F08 /* HBOAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A2641B2167BD9900905F08 /* HBOAPIError.swift */; };
+		52A2641E2167BDD200905F08 /* HBOImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A2641D2167BDD200905F08 /* HBOImage.swift */; };
+		52A264202167BE2D00905F08 /* HBOResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A2641F2167BE2D00905F08 /* HBOResponse.swift */; };
+		52A264222167BE6C00905F08 /* HBOAPIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A264212167BE6C00905F08 /* HBOAPIRequest.swift */; };
+		52A264242167BEA000905F08 /* HBOGetList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A264232167BEA000905F08 /* HBOGetList.swift */; };
+		52A264272167C31F00905F08 /* HBOHttpParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A264262167C31F00905F08 /* HBOHttpParameter.swift */; };
+		52A264292167C35E00905F08 /* HBOResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A264282167C35E00905F08 /* HBOResult.swift */; };
+		52A2642B2167C39B00905F08 /* HBOQueryItemEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A2642A2167C39B00905F08 /* HBOQueryItemEncoder.swift */; };
+		52A2642D2167C3C100905F08 /* ExtensionsString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A2642C2167C3C100905F08 /* ExtensionsString.swift */; };
+		52A2642F2167C3F700905F08 /* HBOAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A2642E2167C3F700905F08 /* HBOAPIClient.swift */; };
+		52A264312167C75D00905F08 /* HBOContentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A264302167C75D00905F08 /* HBOContentsViewController.swift */; };
+		52A804EA218E28990051898E /* HBOPreviewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A804E9218E28990051898E /* HBOPreviewContentView.swift */; };
+		52B318662187950700D79B50 /* HBOCategoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B318652187950700D79B50 /* HBOCategoryCollectionViewController.swift */; };
+		52BF12E02185DE89008C4F0C /* HBOCircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BF12DF2185DE89008C4F0C /* HBOCircularProgressBar.swift */; };
+		52BF12E22185DF9D008C4F0C /* HBOReplayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BF12E12185DF9D008C4F0C /* HBOReplayButton.swift */; };
+		D2CC46095DB96BA73F762EE2 /* Pods_HBOUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD20C55C40FA75BA0471161D /* Pods_HBOUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +68,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0801E36AB2FDC4934747962B /* Pods-HBOUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBOUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HBOUITests/Pods-HBOUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1360ACC9DCFD89ACF7387F55 /* Pods-HBO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBO.release.xcconfig"; path = "Pods/Target Support Files/Pods-HBO/Pods-HBO.release.xcconfig"; sourceTree = "<group>"; };
+		200CD2CA42D9D7FE0CF5F9C2 /* Pods-HBOUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBOUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HBOUITests/Pods-HBOUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		52016EA62160E2F100B9B037 /* HBO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52016EA92160E2F100B9B037 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52016EAB2160E2F100B9B037 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		52016EAE2160E2F100B9B037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52016EAB2160E2F100B9B037 /* HBOLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOLoginViewController.swift; sourceTree = "<group>"; };
 		52016EB02160E2F200B9B037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52016EB32160E2F200B9B037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52016EB52160E2F200B9B037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +83,44 @@
 		52016EC52160E2F200B9B037 /* HBOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52016EC92160E2F200B9B037 /* HBOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOUITests.swift; sourceTree = "<group>"; };
 		52016ECB2160E2F200B9B037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525DDE962163F55B00513F04 /* HBOTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOTabController.swift; sourceTree = "<group>"; };
+		5283D54E2167F7AF00D85BEE /* HBONavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBONavigationController.swift; sourceTree = "<group>"; };
+		5283D550216916FC00D85BEE /* HBOImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		5283D5522169184700D85BEE /* ImageViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewExtensions.swift; sourceTree = "<group>"; };
+		5283D55421691B2C00D85BEE /* HBOHorizCollectionViewInCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOHorizCollectionViewInCell.swift; sourceTree = "<group>"; };
+		5283D558216C007200D85BEE /* HBOContentViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOContentViewCell.swift; sourceTree = "<group>"; };
+		5283D55A216CBFB400D85BEE /* HBORoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBORoundButton.swift; sourceTree = "<group>"; };
+		5283D55E216CD21800D85BEE /* HBOPagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOPagesViewController.swift; sourceTree = "<group>"; };
+		5283D560216CD48700D85BEE /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		529D2F6C218F6CAC0063EC81 /* HBOPagesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOPagesCollectionViewController.swift; sourceTree = "<group>"; };
+		529D2F6F218F863F0063EC81 /* HBOCollectionTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOCollectionTransition.swift; sourceTree = "<group>"; };
+		52A0F27E21614C98001A9AD5 /* HBOInputTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOInputTextView.swift; sourceTree = "<group>"; };
+		52A0F28021629B6F001A9AD5 /* HBORightIconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBORightIconButton.swift; sourceTree = "<group>"; };
+		52A0F28321629B8F001A9AD5 /* HBOLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOLoginButton.swift; sourceTree = "<group>"; };
+		52A0F2862162A299001A9AD5 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		52A264142165425700905F08 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		52A264192167BB7400905F08 /* HBOContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOContent.swift; sourceTree = "<group>"; };
+		52A2641B2167BD9900905F08 /* HBOAPIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOAPIError.swift; sourceTree = "<group>"; };
+		52A2641D2167BDD200905F08 /* HBOImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOImage.swift; sourceTree = "<group>"; };
+		52A2641F2167BE2D00905F08 /* HBOResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOResponse.swift; sourceTree = "<group>"; };
+		52A264212167BE6C00905F08 /* HBOAPIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOAPIRequest.swift; sourceTree = "<group>"; };
+		52A264232167BEA000905F08 /* HBOGetList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOGetList.swift; sourceTree = "<group>"; };
+		52A264262167C31F00905F08 /* HBOHttpParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOHttpParameter.swift; sourceTree = "<group>"; };
+		52A264282167C35E00905F08 /* HBOResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOResult.swift; sourceTree = "<group>"; };
+		52A2642A2167C39B00905F08 /* HBOQueryItemEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOQueryItemEncoder.swift; sourceTree = "<group>"; };
+		52A2642C2167C3C100905F08 /* ExtensionsString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsString.swift; sourceTree = "<group>"; };
+		52A2642E2167C3F700905F08 /* HBOAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOAPIClient.swift; sourceTree = "<group>"; };
+		52A264302167C75D00905F08 /* HBOContentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOContentsViewController.swift; sourceTree = "<group>"; };
+		52A804E9218E28990051898E /* HBOPreviewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOPreviewContentView.swift; sourceTree = "<group>"; };
+		52B318652187950700D79B50 /* HBOCategoryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOCategoryCollectionViewController.swift; sourceTree = "<group>"; };
+		52BF12DF2185DE89008C4F0C /* HBOCircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOCircularProgressBar.swift; sourceTree = "<group>"; };
+		52BF12E12185DF9D008C4F0C /* HBOReplayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOReplayButton.swift; sourceTree = "<group>"; };
+		5A44743BCED9134B2B204B0E /* Pods-HBOTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBOTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HBOTests/Pods-HBOTests.release.xcconfig"; sourceTree = "<group>"; };
+		6BF189836F97256E47E9CADD /* Pods-HBO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HBO/Pods-HBO.debug.xcconfig"; sourceTree = "<group>"; };
+		7B93BCD13028F40DBB8CBAF4 /* Pods-HBOTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBOTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HBOTests/Pods-HBOTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A773B3535B603B041EE87EF4 /* Pods_HBO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD20C55C40FA75BA0471161D /* Pods_HBOUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBOUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB549C50C1FF8978588F4EC /* Pods_HBOTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBOTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3038545FA59D366FA02B0AA4 /* Pods_HBO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50E956CF9CC246D8705D9E69 /* Pods_HBOTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2CC46095DB96BA73F762EE2 /* Pods_HBOUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +158,8 @@
 				52016EBD2160E2F200B9B037 /* HBOTests */,
 				52016EC82160E2F200B9B037 /* HBOUITests */,
 				52016EA72160E2F100B9B037 /* Products */,
+				C3830BEDE37589AE379A835D /* Pods */,
+				BDDB33499483D17FFC122A4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +176,14 @@
 		52016EA82160E2F100B9B037 /* HBO */ = {
 			isa = PBXGroup;
 			children = (
-				52016EA92160E2F100B9B037 /* AppDelegate.swift */,
-				52016EAB2160E2F100B9B037 /* ViewController.swift */,
-				52016EAD2160E2F100B9B037 /* Main.storyboard */,
-				52016EB02160E2F200B9B037 /* Assets.xcassets */,
-				52016EB22160E2F200B9B037 /* LaunchScreen.storyboard */,
-				52016EB52160E2F200B9B037 /* Info.plist */,
+				52A264162167B7E600905F08 /* API */,
+				52A264132165423300905F08 /* Lib */,
+				529D2F6E218F861B0063EC81 /* Transitions */,
+				525DDE952163F48A00513F04 /* ViewControllers */,
+				52A0F2852162A284001A9AD5 /* Extensions */,
+				52A0F28221629B76001A9AD5 /* Views */,
+				52A0F27D21614C66001A9AD5 /* Components */,
+				52A264172167B7F700905F08 /* Resources */,
 			);
 			path = HBO;
 			sourceTree = "<group>";
@@ -125,6 +206,138 @@
 			path = HBOUITests;
 			sourceTree = "<group>";
 		};
+		525DDE952163F48A00513F04 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				52016EAB2160E2F100B9B037 /* HBOLoginViewController.swift */,
+				525DDE962163F55B00513F04 /* HBOTabController.swift */,
+				52A264302167C75D00905F08 /* HBOContentsViewController.swift */,
+				5283D54E2167F7AF00D85BEE /* HBONavigationController.swift */,
+				5283D558216C007200D85BEE /* HBOContentViewCell.swift */,
+				5283D55E216CD21800D85BEE /* HBOPagesViewController.swift */,
+				52B318652187950700D79B50 /* HBOCategoryCollectionViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		529D2F6E218F861B0063EC81 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				529D2F6F218F863F0063EC81 /* HBOCollectionTransition.swift */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		52A0F27D21614C66001A9AD5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				52A0F28021629B6F001A9AD5 /* HBORightIconButton.swift */,
+				5283D550216916FC00D85BEE /* HBOImageCollectionViewCell.swift */,
+				5283D55A216CBFB400D85BEE /* HBORoundButton.swift */,
+				52BF12DF2185DE89008C4F0C /* HBOCircularProgressBar.swift */,
+				52A804E9218E28990051898E /* HBOPreviewContentView.swift */,
+				529D2F6C218F6CAC0063EC81 /* HBOPagesCollectionViewController.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		52A0F28221629B76001A9AD5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52A0F27E21614C98001A9AD5 /* HBOInputTextView.swift */,
+				52A0F28321629B8F001A9AD5 /* HBOLoginButton.swift */,
+				5283D55421691B2C00D85BEE /* HBOHorizCollectionViewInCell.swift */,
+				52BF12E12185DF9D008C4F0C /* HBOReplayButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52A0F2852162A284001A9AD5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				52A0F2862162A299001A9AD5 /* UIColorExtensions.swift */,
+				52A2642C2167C3C100905F08 /* ExtensionsString.swift */,
+				5283D5522169184700D85BEE /* ImageViewExtensions.swift */,
+				5283D560216CD48700D85BEE /* ViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		52A264132165423300905F08 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				52A264142165425700905F08 /* Globals.swift */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		52A264162167B7E600905F08 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				52A264252167C30B00905F08 /* Utils */,
+				52A264182167BB4800905F08 /* Models */,
+				52A2641B2167BD9900905F08 /* HBOAPIError.swift */,
+				52A2641D2167BDD200905F08 /* HBOImage.swift */,
+				52A2641F2167BE2D00905F08 /* HBOResponse.swift */,
+				52A264212167BE6C00905F08 /* HBOAPIRequest.swift */,
+				52A264232167BEA000905F08 /* HBOGetList.swift */,
+				52A2642E2167C3F700905F08 /* HBOAPIClient.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		52A264172167B7F700905F08 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52016EA92160E2F100B9B037 /* AppDelegate.swift */,
+				52016EB02160E2F200B9B037 /* Assets.xcassets */,
+				52016EB22160E2F200B9B037 /* LaunchScreen.storyboard */,
+				52016EB52160E2F200B9B037 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		52A264182167BB4800905F08 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52A264192167BB7400905F08 /* HBOContent.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52A264252167C30B00905F08 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				52A264262167C31F00905F08 /* HBOHttpParameter.swift */,
+				52A264282167C35E00905F08 /* HBOResult.swift */,
+				52A2642A2167C39B00905F08 /* HBOQueryItemEncoder.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BDDB33499483D17FFC122A4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A773B3535B603B041EE87EF4 /* Pods_HBO.framework */,
+				AFB549C50C1FF8978588F4EC /* Pods_HBOTests.framework */,
+				AD20C55C40FA75BA0471161D /* Pods_HBOUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3830BEDE37589AE379A835D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BF189836F97256E47E9CADD /* Pods-HBO.debug.xcconfig */,
+				1360ACC9DCFD89ACF7387F55 /* Pods-HBO.release.xcconfig */,
+				7B93BCD13028F40DBB8CBAF4 /* Pods-HBOTests.debug.xcconfig */,
+				5A44743BCED9134B2B204B0E /* Pods-HBOTests.release.xcconfig */,
+				200CD2CA42D9D7FE0CF5F9C2 /* Pods-HBOUITests.debug.xcconfig */,
+				0801E36AB2FDC4934747962B /* Pods-HBOUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +345,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52016ECE2160E2F200B9B037 /* Build configuration list for PBXNativeTarget "HBO" */;
 			buildPhases = (
+				4E7C13F7C62282D4FA0C6B14 /* [CP] Check Pods Manifest.lock */,
 				52016EA22160E2F100B9B037 /* Sources */,
 				52016EA32160E2F100B9B037 /* Frameworks */,
 				52016EA42160E2F100B9B037 /* Resources */,
@@ -149,6 +363,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52016ED12160E2F200B9B037 /* Build configuration list for PBXNativeTarget "HBOTests" */;
 			buildPhases = (
+				47FBAE37C7BB16AC665588E8 /* [CP] Check Pods Manifest.lock */,
 				52016EB62160E2F200B9B037 /* Sources */,
 				52016EB72160E2F200B9B037 /* Frameworks */,
 				52016EB82160E2F200B9B037 /* Resources */,
@@ -167,6 +382,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52016ED42160E2F200B9B037 /* Build configuration list for PBXNativeTarget "HBOUITests" */;
 			buildPhases = (
+				D96AA1B35229E8196FE5EFC1 /* [CP] Check Pods Manifest.lock */,
 				52016EC12160E2F200B9B037 /* Sources */,
 				52016EC22160E2F200B9B037 /* Frameworks */,
 				52016EC32160E2F200B9B037 /* Resources */,
@@ -231,7 +447,6 @@
 			files = (
 				52016EB42160E2F200B9B037 /* LaunchScreen.storyboard in Resources */,
 				52016EB12160E2F200B9B037 /* Assets.xcassets in Resources */,
-				52016EAF2160E2F100B9B037 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +466,114 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47FBAE37C7BB16AC665588E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HBOTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E7C13F7C62282D4FA0C6B14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HBO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D96AA1B35229E8196FE5EFC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HBOUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52016EA22160E2F100B9B037 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52016EAC2160E2F100B9B037 /* ViewController.swift in Sources */,
+				52A264312167C75D00905F08 /* HBOContentsViewController.swift in Sources */,
+				52BF12E02185DE89008C4F0C /* HBOCircularProgressBar.swift in Sources */,
+				52A2642D2167C3C100905F08 /* ExtensionsString.swift in Sources */,
+				52A264202167BE2D00905F08 /* HBOResponse.swift in Sources */,
+				52BF12E22185DF9D008C4F0C /* HBOReplayButton.swift in Sources */,
+				5283D559216C007200D85BEE /* HBOContentViewCell.swift in Sources */,
+				529D2F70218F863F0063EC81 /* HBOCollectionTransition.swift in Sources */,
+				52A264222167BE6C00905F08 /* HBOAPIRequest.swift in Sources */,
+				52A804EA218E28990051898E /* HBOPreviewContentView.swift in Sources */,
+				52A264292167C35E00905F08 /* HBOResult.swift in Sources */,
+				52A0F27F21614C98001A9AD5 /* HBOInputTextView.swift in Sources */,
+				5283D5532169184700D85BEE /* ImageViewExtensions.swift in Sources */,
+				52016EAC2160E2F100B9B037 /* HBOLoginViewController.swift in Sources */,
+				5283D55521691B2C00D85BEE /* HBOHorizCollectionViewInCell.swift in Sources */,
+				5283D561216CD48700D85BEE /* ViewExtension.swift in Sources */,
+				52A0F28421629B8F001A9AD5 /* HBOLoginButton.swift in Sources */,
+				5283D55F216CD21800D85BEE /* HBOPagesViewController.swift in Sources */,
+				52A2641A2167BB7400905F08 /* HBOContent.swift in Sources */,
+				52A0F2872162A299001A9AD5 /* UIColorExtensions.swift in Sources */,
+				5283D551216916FC00D85BEE /* HBOImageCollectionViewCell.swift in Sources */,
+				52A2642F2167C3F700905F08 /* HBOAPIClient.swift in Sources */,
+				52A2641E2167BDD200905F08 /* HBOImage.swift in Sources */,
+				52A264152165425700905F08 /* Globals.swift in Sources */,
+				52A264242167BEA000905F08 /* HBOGetList.swift in Sources */,
+				52A2642B2167C39B00905F08 /* HBOQueryItemEncoder.swift in Sources */,
 				52016EAA2160E2F100B9B037 /* AppDelegate.swift in Sources */,
+				52B318662187950700D79B50 /* HBOCategoryCollectionViewController.swift in Sources */,
+				52A2641C2167BD9900905F08 /* HBOAPIError.swift in Sources */,
+				525DDE972163F55B00513F04 /* HBOTabController.swift in Sources */,
+				5283D55B216CBFB400D85BEE /* HBORoundButton.swift in Sources */,
+				52A0F28121629B6F001A9AD5 /* HBORightIconButton.swift in Sources */,
+				5283D54F2167F7AF00D85BEE /* HBONavigationController.swift in Sources */,
+				529D2F6D218F6CAC0063EC81 /* HBOPagesCollectionViewController.swift in Sources */,
+				52A264272167C31F00905F08 /* HBOHttpParameter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +609,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		52016EAD2160E2F100B9B037 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				52016EAE2160E2F100B9B037 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		52016EB22160E2F200B9B037 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -430,10 +738,12 @@
 		};
 		52016ECF2160E2F200B9B037 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BF189836F97256E47E9CADD /* Pods-HBO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HBO/Info.plist;
+				DEVELOPMENT_TEAM = L28U42Z8A9;
+				INFOPLIST_FILE = HBO/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,10 +757,12 @@
 		};
 		52016ED02160E2F200B9B037 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1360ACC9DCFD89ACF7387F55 /* Pods-HBO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HBO/Info.plist;
+				DEVELOPMENT_TEAM = L28U42Z8A9;
+				INFOPLIST_FILE = HBO/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +776,7 @@
 		};
 		52016ED22160E2F200B9B037 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B93BCD13028F40DBB8CBAF4 /* Pods-HBOTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +797,7 @@
 		};
 		52016ED32160E2F200B9B037 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A44743BCED9134B2B204B0E /* Pods-HBOTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +818,7 @@
 		};
 		52016ED52160E2F200B9B037 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 200CD2CA42D9D7FE0CF5F9C2 /* Pods-HBOUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +838,7 @@
 		};
 		52016ED62160E2F200B9B037 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0801E36AB2FDC4934747962B /* Pods-HBOUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
